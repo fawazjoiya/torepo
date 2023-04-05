@@ -1,0 +1,142 @@
+/************************blogs data ***************/
+.blogtopimg{
+    background-image: url('../public/img/blogtop.png');
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+}
+.padcontainer{
+    padding: 0px 50px;
+}
+
+.blogtitle {
+    padding-top: 50px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+/********bg input blogsite***********/
+.bg-recent-blogs {
+    background-color: #f4f4f4;
+    border-radius: 20px;
+    padding: 20px 0px;
+
+}
+.ulblogstd ul li {
+    padding-left: 0px;
+}
+.text-14{
+    font-size: 14px;
+}
+
+.text-18{
+    font-size: 18px;
+}
+.text-20{
+    font-size: 20px;
+}
+.card-blogs{
+    border-radius: 20px;
+}
+
+.card-blogs img {
+    border-radius: 20px;
+    height: 265px;
+}
+.blog-text-icon{
+    display: flex;
+    gap: 20px;
+}
+
+.blog-text-icon p{
+    width: 40px;
+    min-height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: orange;
+}
+.blog-text-icon p i{
+    font-size: 25px;
+    color: white;
+}
+
+/************************landen data ***************/
+.landensecttion{
+    background-image: url('../public/img/landenmain.png');
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+}
+.heading-text{
+    color: #6C6C6C !important;
+    font-weight: 700;
+}
+
+.dream-pic{
+    border-radius: 20px;
+}
+
+/********************blogs data enddedd***********************/
+
+
+
+/******************reisen section started*************************/
+
+.riesensection{
+    background-image: url('../public/img/reisenback.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+.reisen-video iframe{
+    border-radius: 20px;
+}
+.countryimgst img{
+    border-radius: 20px;
+}
+
+.reisen-card .card{
+    border-radius: 20px;
+}
+
+.reisen-card .card img{
+    border-radius: 20px 20px 0px 0px;
+}
+
+.reisen-card .card a{
+    border-radius: 20px;
+}
+
+.paginationsecnder{
+    text-align: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+/********************reisen section ended*****************************/
+@media screen and (max-width:460px){
+ /************************blogs data ***************/
+.blogtopimg{
+    background-image: url('../public/img/blogtop.png');
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+    background-size: cover;
+}
+
+/************************landen data ***************/
+.landensecttion{
+    background-image: url('../public/img/landenmain.png');
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+    background-size: cover;
+}
+}

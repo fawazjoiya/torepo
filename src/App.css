@@ -1,0 +1,1296 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,body{
+  width: 100%;
+  overflow-x: hidden;
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+
+
+.topimgsetup{
+  background-image: url('../public/img/beach.jpg');
+  width: 1350px;
+  min-height: 309px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.header-bg{
+  background: linear-gradient(0deg, rgb(0 0 0 / 28%) 0%, rgb(196 196 196 / 0%) 100%);
+  height: 95px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 100px;
+
+  align-items: center;
+}
+
+.navset{
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+
+}
+.navset a{
+  line-height: 95px;
+  color: white;
+  text-decoration: none;
+}
+.naviconset{
+  display: flex;
+}
+.naviconset .buttonser{
+  background-color: orange !important;
+  color: white;
+  text-decoration: none;
+  height: 25px;
+  padding: 0px 10px;
+
+}
+/********drop down set start****************/
+.blackboser{ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(0deg, rgb(0 0 0 / 35%) 0%, #212529 100%);
+    height: 120px;
+    padding: 0px 30px;
+}
+
+.dropdownset{
+  display: flex;
+}
+
+.drepbordt button{
+  border-right: 1px  #AFACAC !important;
+  height: 40px !important;
+ 
+  
+}
+
+.dropdowcolset{
+  
+  border-radius: 20px 0px 0px 20px;
+  width: 200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+.dropdown-toggle{
+  background-color: white;
+  color: #AFACAC;
+}
+.secddrp button{
+  border-radius: 0;
+  width: 160px;
+}
+
+.secddrp button:hover {
+  color: #565e64;
+   background-color: white;
+  border-color: #565e64;
+  box-sizing: border-box;
+  box-shadow: none;
+
+}
+
+.btn-secondary:hover {
+  color:#565e64;
+   background-color: white;
+  border-color: #565e64;
+  box-sizing: border-box;
+  box-shadow: none;
+  box-sizing: border-box !important;
+  
+  color: #AFACAC;
+}
+
+.dropdownlast{
+  background: white;
+  color: #565e64;
+}
+.lastdrp{
+  background: white;
+  color: #565e64;
+  height: 40px;
+  border-left: 1px solid #AFACAC;
+  border-radius: 0px 20px 20px 0px;
+}
+
+.lastdrp p{
+  line-height: 40px;
+  padding: 0px 20px;
+}
+
+.lastdrp :hover{
+  background-color: orange;
+  color: #565e64;
+  border-radius: 0px 20px 20px 0px;
+}
+
+
+
+.naviconset p{
+
+}
+
+.naviconset p i{
+  font-size: 30px;
+  color: white;
+  padding: 20px;
+
+}
+/************drop down set endded*******************/
+
+/******poplar img box started*******/
+.poplimgset{
+  border-radius: 20px !important;
+}
+
+
+/*******************poplar img-box endded****************/
+/**********popularround staer************/
+.poplimgset {
+  position: relative;
+}
+
+
+.poplimgset a{
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  padding: 5px 20px;
+  background:#fda8024a;
+  font-size: 15px;
+  font-weight: bold;
+  color: white;
+}
+.poplimgset p{
+  position: relative;
+  font-size: 15px;
+  color: white;
+  font-weight: bold;
+  left: 30px;
+  bottom: 70px;
+}
+
+.poplimgset2{
+  position: relative;
+}
+
+.poplimgset2 img{
+  border-radius: 20px;
+} 
+.poplimgset2 a{
+  position: absolute;
+  top: 20px;
+  left: 30px;
+  padding: 5px 20px;
+  background:#fda8024a;
+  font-size: 15px;
+  font-weight: bold;
+  color: white;
+}
+
+.poplimgset2 p{
+  position: relative;
+  font-size: 15px;
+  color: white;
+  font-weight: bold;
+  left: 30px;
+  bottom: 70px;
+}
+
+
+.poplimgset a :hover{
+
+  top: 20px;
+  right: 20px;
+  padding: 5px 20px;
+  background:skyblue !important;
+  font-size: 15px;
+  font-weight: bold;
+  color: white;
+}
+
+.poplimgset img{
+  border-radius: 20px;
+}
+
+
+
+/************popular round end***********************/
+/*************servicwes box startd****************/
+.servbg{
+  background-color:#0d6efd;
+}
+.services-shade{
+  padding: 10px;
+  background-color: white;
+}
+.servbg h3{
+  color: white;
+
+}
+.centersert{
+  text-align: center;
+
+}
+
+.row>* {
+  
+  text-align: center;
+}
+
+
+.services-shade p{
+  color:#8D8D8D ;
+}
+.services-shade h4{
+  font-size: 14px;
+  font-weight: 700;
+  color: #0d6efd;
+  position: relative;
+}
+.services-shade h4 ::after {
+  position: absolute;
+  content: "Read this -";
+  background-color: yellow;
+  color: red;
+  font-weight: bold;
+}
+/***************services box ennded*************************/
+
+
+/*********onsz box started*********************/
+.bg-places{
+  background: #FAFAFA;
+}
+
+
+/**************onz box endded***************************/
+/****************dream video**********/
+.dremcolset h3{
+font-size: 20px;
+font-weight: 700;
+color:#8D8D8D ;
+}
+.dremcolset p{
+  color:#8D8D8D ;
+  padding-right: 150px;
+  padding-bottom: 30px;
+}
+
+.dremcolset button{
+  background-color: #1167B1;
+    padding: 5px 25px;
+    border-radius: 20px;
+    color: white;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+
+}
+
+.video-tuning iframe{
+  border-radius: 20px;
+  height: 315px;
+  width: 515px;
+}
+/************dream video endded********************/
+/**************popular landen box*************************/
+.poplanden{
+  position: relative;
+}
+
+.poplanden a{
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background: #8D8D8D;
+  padding: 2px 10px;
+  color: white !important;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.poplanden a :hover{
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background:skyblue !important;
+  padding: 2px 10px;
+  color: white !important;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+
+
+.poplanden img{
+  border-radius: 20px ;
+}
+
+
+
+
+/**************popular landen box endded**************************/
+/*********onz blog data****************/
+.onzblogtext h2{
+  color: #6C6C6C;
+  font-weight: 700;
+}
+
+.onzblogtext p{
+  color: #6C6C6C;
+}
+
+.card-data .card{
+  border-radius: 20px;
+}
+
+.card-data .card img{
+  border-radius: 20px;
+}
+
+.card-body .card-title{
+  font-weight: 700;
+  color: #6C6C6C;
+}
+.card-body a{
+  text-transform: uppercase;
+  font-weight: 700;
+  text-decoration: none;
+  font-size: 15px;
+}
+/*************onz blog data endded***********************/
+/************deal box *************/
+
+.dealimg img{
+  border-radius: 20px;
+}
+
+
+
+
+/*******************deal box endded*********************/
+/*******************input box *******************/
+.brownbg{
+  background-color: #6C6C6C;
+  border-radius: 10px;
+  
+}
+.inputlefttext h3{
+  margin-bottom:  0;
+  padding: ;
+  color:white;
+  font-weight: 700;
+  font-size: 20px;
+
+}
+
+.inputlefttext p{
+  margin-bottom: 0;
+  margin-top: 0;
+  color: white;
+}
+
+.inputsetupt{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.input-group-text{
+  border-radius:20px;
+  background-color:#FDA802;
+  color: white;
+  font-weight: 700;
+}
+
+.input-group-text :hover{
+  background: #0d6efd !important;
+}
+
+
+
+
+/*******************input box endded************************/
+
+/******************footer section***************/
+.footersetup{
+  background-color: #0d6efd;
+}
+.footertext p{
+color: white;
+}
+
+.social-icon{
+  display: flex;
+  gap: 20px;
+
+}
+.social-icon p{
+  width: 40px;
+  height: 40px;
+  background: white;
+  text-align: center;
+
+}
+.social-icon p i{
+  color: #0d6efd;
+  font-size: 25px;
+}
+
+.footerulseting{
+  text-align: start;
+}
+
+.footerulseting ul{
+  list-style: none;
+  padding-left: 0;
+}
+.footerulseting ul li {
+  padding: 7px 0px;
+}
+.footerulseting ul li a{
+  text-decoration: none;
+  color: white;
+}
+
+.uliconmet li i{
+  font-size: 20px;
+  color:white;
+  padding-right: 20px;
+}
+
+.insurplane h3{
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+/************footer section ended***********************/
+
+/*****************media query starated 992px*************************/
+
+@media screen and (max-width:992px){
+  
+.topimgsetup{
+  background-image: url('../public/img/beach.jpg');
+  width: 100%;
+  min-height: auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.header-bg{
+  background: linear-gradient(0deg, rgb(0 0 0 / 28%) 0%, rgb(196 196 196 / 0%) 100%);
+  height: 85px;
+  display: flex;
+  justify-content:first baseline;
+  padding: 0px 0px;
+
+  align-items: center;
+}
+
+.navset{
+  display: flex;
+  justify-content: center;
+  gap: 35px;
+
+}
+.navset a{
+  line-height: 85px;
+  color: white;
+  text-decoration: none;
+}
+.naviconset{
+  display: flex;
+   padding-left: 20px;
+}
+.naviconset button{
+  background-color: orange !important;
+  color: white;
+  padding: 3px 10px;
+}
+/********drop down set start****************/
+.blackboser{ 
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(0deg, rgb(0 0 0 / 35%) 0%, #212529 100%);
+    height: 110px;
+    padding: 0px 25px;
+}
+.dropdownset {
+  display: flex;
+}
+
+.dropdowcolset{
+  
+  border-radius: 20px 0px 0px 20px;
+  width: 170px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.dropdown-toggle{
+  background-color: white;
+  color: black;
+}
+
+.dropdownlast{
+  background: white;
+  color: black;
+}
+.secddrp button{
+  width: 150px;
+}
+.lastdrp{
+  background: white;
+  color: black;
+  height: 37px;
+  
+  border-radius: 0px 20px 20px 0px;
+}
+
+.lastdrp p{
+  line-height: 37px;
+  padding: 0px 20px;
+}
+
+.lastdrp :hover{
+  background-color: orange;
+  color: white;
+  border-radius: 0px 20px 20px 0px;
+}
+
+
+.underimgser{
+  padding-top: 80px;
+}
+/************drop down set endded*******************/
+
+
+/****************dream video**********/
+.dremcolset h3{
+  font-size: 20px;
+  font-weight: 600;
+  color:#8D8D8D ;
+  }
+  .dremcolset p{
+    color:#8D8D8D ;
+    padding-right: 50px;
+    padding-bottom: 30px;
+  }
+  
+  .dremcolset button{
+    background-color: #1167B1;
+      padding: 5px 25px;
+      border-radius: 20px;
+      color: white;
+      border: none;
+      outline: none;
+      font-size: 15px;
+      font-weight: 700;
+      text-transform: uppercase;
+  
+  }
+  
+  .video-tuning iframe{
+    border-radius: 20px;
+    height: 270px;
+    width: 405px;
+  }
+  /************dream video endded********************/
+
+}
+
+/***********media screeen 810px******************/
+
+@media screen and (max-width:810px){
+  .topimgsetup{
+    background-image: url('../public/img/beach.jpg');
+    width: 100%;
+    min-height: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+  
+  .header-bg{
+    background: linear-gradient(0deg, rgb(0 0 0 / 28%) 0%, rgb(196 196 196 / 0%) 100%);
+    height: 75px;
+    display: flex;
+    justify-content: baseline;
+    padding: 0px 0px;
+  
+    align-items: center;
+  }
+  
+  .navset{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+  
+  }
+  .navset a{
+    line-height: 75px;
+    color: white;
+    text-decoration: none;
+  }
+  .naviconset{
+    display: flex;
+     padding-left: 15px;
+  }
+  .naviconset button{
+    background-color: orange !important;
+    color: white;
+    padding: 3px 10px;
+  }
+  /********drop down set start****************/
+  .blackboser{ 
+    display:flex;
+    flex-direction: column !important;
+    width: 300px !important;
+    background: linear-gradient(0deg, rgb(0 0 0 / 35%) 0%, #212529 100%);
+      height: auto;
+  }
+
+  .dropdownset {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .dropdowcolset{
+    
+    border-radius: 20px ;
+    width: 160px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 200px;
+  }
+  .dropdown-toggle{
+    background-color: white;
+    color: black;
+  }
+  
+  .dropdownlast{
+    background: white;
+    color: black;
+  }
+  .secddrp button{
+    width: 150px;
+    border-radius: 20px;
+    width: 200px;
+  }
+  .lastdrp{
+    background: white;
+    color: black;
+    height: 37px;
+    width: 200px;
+    border-radius: 20px;
+  }
+  
+  .lastdrp p{
+    line-height: 37px;
+    padding: 0px 20px;
+  }
+  
+  .lastdrp :hover{
+    background-color: orange;
+    color: white;
+    border-radius: 0px 20px 20px 0px;
+  }
+  
+  
+  .underimgser{
+    padding-top: 80px;
+  }
+
+  
+  /************drop down set endded*******************/
+  /****************dream video**********/
+.dremcolset h3{
+  font-size: 20px;
+  font-weight: 500;
+  color:#8D8D8D ;
+  }
+  .dremcolset p{
+    color:#8D8D8D ;
+    padding-bottom: 30px;
+  }
+  
+  .dremcolset button{
+    background-color: #1167B1;
+      padding: 5px 25px;
+      border-radius: 20px;
+      color: white;
+      border: none;
+      outline: none;
+      font-size: 15px;
+      font-weight: 700;
+      text-transform: uppercase;
+  
+  }
+  
+  .video-tuning iframe{
+    border-radius: 20px;
+    height: 250px;
+    width: 350px;
+  }
+  /************dream video endded********************/
+
+
+  /***************fotterf daata st***********************/
+
+  .social-icon{
+    display: flex;
+    gap: 10px;
+  
+  }
+  .social-icon p{
+    width: 30px;
+    height: 30px;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .social-icon p i{
+    color: #0d6efd;
+    font-size: 20px;
+  }
+
+
+  /**************foooter data endded*****************************/
+}
+
+
+@media screen and (max-width:740px){
+  .topimgsetup{
+    background-image: url('../public/img/beach.jpg');
+    width: 100%;
+    min-height: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+  
+  .header-bg{
+    background: linear-gradient(0deg, rgb(0 0 0 / 28%) 0%, rgb(196 196 196 / 0%) 100%);
+    height: auto;
+    display: flex;
+    flex-direction: column !important;
+    
+    padding: 0px 0px;
+  
+    align-items: center;
+  }
+  
+  .navset{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+  
+  }
+  .navset a{
+    line-height: 75px;
+    color: white;
+    text-decoration: none;
+  }
+  .naviconset{
+    display: flex;
+     padding-left: 15px;
+  }
+  .naviconset button{
+    background-color: orange !important;
+    color: white;
+    padding: 3px 10px;
+  }
+  /********drop down set start****************/
+  .blackboser{ 
+    display:flex;
+    flex-direction: column !important;
+    width: 300px !important;
+    background: linear-gradient(0deg, rgb(0 0 0 / 35%) 0%, #212529 100%);
+      height: auto;
+  }
+
+  .dropdownset {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .dropdowcolset{
+    
+    border-radius: 20px ;
+    width: 160px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 200px;
+  }
+  .dropdown-toggle{
+    background-color: white;
+    color: black;
+  }
+  
+  .dropdownlast{
+    background: white;
+    color: black;
+  }
+  .secddrp button{
+    width: 150px;
+    border-radius: 20px;
+    width: 200px;
+  }
+  .lastdrp{
+    background: white;
+    color: black;
+    height: 37px;
+    width: 200px;
+    border-radius: 20px;
+  }
+  
+  .lastdrp p{
+    line-height: 37px;
+    padding: 0px 20px;
+  }
+  
+  .lastdrp :hover{
+    background-color: orange;
+    color: white;
+    border-radius: 0px 20px 20px 0px;
+  }
+  
+  
+  .underimgser{
+    padding-top: 80px;
+  }
+
+  
+  /************drop down set endded*******************/
+/**********popularround staer************/
+.poplimgset {
+  position: relative;
+}
+
+
+.poplimgset a{
+  position: absolute;
+  top: 20px;
+  right: 150px;
+  padding: 5px 20px;
+  background:#fda8024a;
+  font-size: 15px;
+  font-weight: bold;
+  color: white;
+}
+.poplimgset p{
+  position: relative;
+  font-size: 15px;
+  color: white;
+  font-weight: bold;
+  left: 30px;
+  bottom: 70px;
+}
+
+.poplimgset2{
+  position: relative;
+}
+
+.poplimgset2 img{
+  border-radius: 20px;
+} 
+.poplimgset2 a{
+  position: absolute;
+  top: 20px;
+  left: 30px;
+  padding: 5px 20px;
+  background:#fda8024a;
+  font-size: 15px;
+  font-weight: bold;
+  color: white;
+}
+
+.poplimgset2 p{
+  position: relative;
+  font-size: 15px;
+  color: white;
+  font-weight: bold;
+  left: 30px;
+  bottom: 70px;
+}
+
+
+.poplimgset a :hover{
+
+  top: 20px;
+  right: 20px;
+  padding: 5px 20px;
+  background:skyblue !important;
+  font-size: 15px;
+  font-weight: bold;
+  color: white;
+}
+
+.poplimgset img{
+  border-radius: 20px;
+}
+
+
+
+/************popular round end***********************/
+
+
+
+
+
+
+  /****************dream video**********/
+.dremcolset h3{
+  font-size: 20px;
+  font-weight: 500;
+  color:#8D8D8D ;
+  }
+  .dremcolset p{
+    color:#8D8D8D ;
+    padding-bottom: 30px;
+  }
+  
+  .dremcolset button{
+    background-color: #1167B1;
+      padding: 5px 25px;
+      border-radius: 20px;
+      color: white;
+      border: none;
+      outline: none;
+      font-size: 15px;
+      font-weight: 700;
+      text-transform: uppercase;
+       margin-bottom: 50px;
+  
+  }
+  
+  .video-tuning iframe{
+    border-radius: 20px;
+    height: 350px;
+    width: 100%;
+  }
+  
+  
+  
+  /********************poplar rourer*********/
+
+  .poplimgset2{
+    position: relative;
+  }
+  
+  .poplimgset2 img{
+    border-radius: 20px;
+  } 
+  .poplimgset2 a {
+    position: absolute;
+    top: 20px;
+    left: 100px;
+    padding: 5px 20px;
+    background: #fda8024a;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+}
+
+
+  /**********popular rounder ennded****************/
+
+
+  /**************popular landen box*************************/
+.poplanden{
+  position: relative;
+}
+
+.poplanden a{
+  position: absolute;
+  top: 20px;
+  right: 90px;
+  background: #8D8D8D;
+  padding: 2px 10px;
+  color: white !important;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.poplanden a :hover{
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background:skyblue !important;
+  padding: 2px 10px;
+  color: white !important;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+
+
+.poplanden img{
+  border-radius: 20px ;
+}
+
+
+
+
+/**************popular landen box endded**************************/
+
+}
+
+
+
+/*************media query for 520px********************/
+
+@media screen and (max-width:520px){
+  .topimgsetup{
+    background-image: url('../public/img/beach.jpg');
+    width: 100%;
+    min-height: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+  
+  .header-bg{
+    background: linear-gradient(0deg, rgb(0 0 0 / 28%) 0%, rgb(196 196 196 / 0%) 100%);
+    height: auto;
+    display: flex;
+    flex-direction: column !important;
+    
+    padding: 0px 0px;
+  
+    align-items: center;
+  }
+  
+  .navset{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  
+  }
+  .navset a{
+    line-height: 75px;
+    color: white;
+    text-decoration: none;
+  }
+  .naviconset{
+    display: flex;
+     padding-left: 15px;
+  }
+  .naviconset button{
+    background-color: orange !important;
+    color: white;
+    padding: 3px 10px;
+  }
+  /********drop down set start****************/
+  .blackboser{ 
+    display:flex;
+    flex-direction: column !important;
+    width: 300px !important;
+    background: linear-gradient(0deg, rgb(0 0 0 / 35%) 0%, #212529 100%);
+      height: auto;
+  }
+
+  .dropdownset {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .dropdowcolset{
+    
+    border-radius: 20px ;
+    width: 160px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 200px;
+  }
+  .dropdown-toggle{
+    background-color: white;
+    color: black;
+  }
+  
+  .dropdownlast{
+    background: white;
+    color: black;
+  }
+  .secddrp button{
+    width: 150px;
+    border-radius: 20px;
+    width: 200px;
+  }
+  .lastdrp{
+    background: white;
+    color: black;
+    height: 37px;
+    width: 200px;
+    border-radius: 20px;
+  }
+  
+  .lastdrp p{
+    line-height: 37px;
+    padding: 0px 20px;
+  }
+  
+  .lastdrp :hover{
+    background-color: orange;
+    color: white;
+    border-radius: 0px 20px 20px 0px;
+  }
+  
+  
+  .underimgser{
+    padding-top: 80px;
+  }
+
+
+}
+  /************drop down set endded*******************/
+
+/**********media query 460px**********************/
+
+
+@media screen and (max-width:460px){
+  .topimgsetup{
+    background-image: url('../public/img/beach.jpg');
+    width: 100%;
+    min-height: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+  
+  .header-bg{
+    background: linear-gradient(0deg, rgb(0 0 0 / 28%) 0%, rgb(196 196 196 / 0%) 100%);
+    height: auto;
+    display: flex;
+    flex-direction: column !important;
+    
+  
+  }
+  
+  .navset{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+  
+  }
+ 
+
+  .navset a {
+    line-height: 17px;
+    color: white;
+    text-decoration: none;
+}
+
+
+
+  .naviconset{
+    display: flex;
+     padding-left: 15px;
+  }
+  .naviconset button{
+    background-color: orange !important;
+    color: white;
+    padding: 3px 10px;
+  }
+  /********drop down set start****************/
+  .blackboser{ 
+    display:flex;
+    flex-direction: column !important;
+    width: 300px !important;
+    background: linear-gradient(0deg, rgb(0 0 0 / 35%) 0%, #212529 100%);
+      height: auto;
+  }
+
+  .dropdownset {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .dropdowcolset{
+    
+    border-radius: 20px ;
+    width: 160px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 200px;
+  }
+  .dropdown-toggle{
+    background-color: white;
+    color: black;
+  }
+  
+  .dropdownlast{
+    background: white;
+    color: black;
+  }
+  .secddrp button{
+    width: 150px;
+    border-radius: 20px;
+    width: 200px;
+  }
+  .lastdrp{
+    background: white;
+    color: black;
+    height: 37px;
+    width: 200px;
+    border-radius: 20px;
+  }
+  
+  .lastdrp p{
+    line-height: 37px;
+    padding: 0px 20px;
+  }
+  
+  .lastdrp :hover{
+    background-color: orange;
+    color: white;
+    border-radius: 0px 20px 20px 0px;
+  }
+  
+  
+  .underimgser{
+    padding-top: 80px;
+  }
+
+
+  /*********************popular rounder****/
+
+  
+
+
+
+  /*************popular rounder enddeed*******************/
+
+  /**********footer seting**************/
+
+  .footerulseting{
+    text-align: center;
+  }
+
+
+  /***********foooter seting***************/
+
+} 

@@ -1,0 +1,185 @@
+@media (max-width: 1024px) {
+#sidebar {
+  position: fixed;
+  top: 0;
+  right: -250px;
+  width: 250px;
+  height: 100%;
+  background-color: #000;
+  z-index: 999;
+  transition: all 0.3s;
+}
+.dream-nav-bar .user-icon {
+    width: 100%;
+    display: inline-block;
+    margin-top:10px;
+}
+.close-text{
+	color: #FFF;
+	font-size: 22px;
+	padding-left: 15px;
+}
+.bg-dropdown{
+	width:80% !important;
+}
+
+
+}
+
+
+
+@media (max-width: 991px) {
+
+.bg-email-address{
+	top: 35px !important;
+}
+.bg-dream-places, .dream-places-video iframe, .bg-dropdown{
+    width: 100% !important;
+}
+.dream-places-video{
+	position: inherit !important;
+}
+.dropdown-main-center {
+    width: 95% !important;
+}
+
+
+
+
+
+}
+
+@media (max-width: 767px) {
+.input-email-address {
+    margin-top:10px !important;
+}
+.input-email-address input{
+	border-radius:20px !important;
+	width:100% !important;
+}
+.input-email-address button{
+border-radius:20px !important;
+margin-top: 10px;
+
+}
+.landen-dropdown button, .holy-dream-dropdown button {
+    padding-right: 65px !important;
+}
+
+
+
+}
+
+
+
+
+
+
+
+
+
+@media (max-width: 576px) {
+
+.bg-email-address{
+	top: 10px !important;
+}
+.input-email-address{
+	padding: 0 10px !important;
+}
+
+.dream-places-video iframe{
+	width:100% !important;
+}
+.dream-places-video{
+	width: 100%;
+    display: inline-block;
+    position: inherit !important;
+}
+.bg-dream-places, .footer-heading:before, .bg-dream-places p, 
+.bg-dropdown{
+    width: 100% !important;
+}
+#sidebar {
+  position: fixed;
+  top: 0;
+  right: -250px;
+  width: 250px;
+  height: 100%;
+  background-color: #000;
+  z-index: 999;
+  transition: all 0.3s;
+}
+.close-text{
+	color: #FFF;
+	font-size: 22px;
+	padding-left: 15px;
+}
+.header-bg{
+	height:60px !important;
+}
+.holy-dream-dropdown .dropdown-toggle::after, .landen-dropdown .dropdown-toggle::after{
+	font-size: inherit !important;
+}
+.holy-dream-dropdown, .landen-dropdown{
+	width: 100%;
+	display: inline-block;
+	text-align:left;
+	margin-bottom: 10px;
+}
+.holy-dream-dropdown button, .landen-dropdown button{
+	border-radius:20px !important;
+	border:0 !important;
+	width: 100%;
+	display: inline-block;
+	text-align:left;
+}
+.dropdown-main{
+	width:100% !important;
+	margin-left: 0 !important;
+	background: inherit !important;
+}
+.btn-dropdown a{
+border-radius: 20px;
+}
+.dream-nav-bar {
+    padding-left: 3rem !important;
+}
+.dream-nav-bar .user-icon{
+	width:100%;
+	display: inline-block;
+}
+.dropdown-menu{
+	width:100%;
+}
+
+
+
+
+}
+
+
+
+
+@media (max-width: 290px) {
+
+.input-email-address {
+    padding: 0 10px !important;
+}
+.input-email-address input{
+	border-radius:20px !important;
+	width:100% !important;
+}
+.input-email-address button{
+border-radius:20px !important;
+margin-top: 10px;
+
+}
+
+
+}
+
+
+
+
+
+
