@@ -1,0 +1,257 @@
+
+{
+    box-sizing: border-box;
+}
+ul{
+	padding:0
+}
+
+ul li{
+	list-style: none;
+}
+img{
+	max-width: 100%;height:auto;outline: none;
+}
+a{
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: none !important;
+}
+body{
+	margin: 0px !important;
+	font-family: 'IBM Plex Sans', sans-serif, Arial, Helvetica;
+}
+:focus{
+	outline: none !important;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+    cursor: pointer;
+}
+::-webkit-scrollbar-thumb {
+    background: #212529;
+    border-radius: 10px;
+}
+/*Start Utilities*/
+/*.fs-1{
+	font-size: 40px;
+}
+.fs-2{
+	font-size: 32px;
+}
+.fs-3{
+	font-size: 28px;
+}
+.fs-4{
+	font-size: 24px;
+}
+.fs-5{
+	font-size: 20px;
+}
+.fs-6{
+	font-size: 16px;
+}*/
+.text-12{
+	font-size:12px;
+}
+.text-13{
+	font-size:13px;
+}
+.text-14{
+	font-size:14px;
+}
+.text-15{
+	font-size:15px;
+}
+.text-16{
+	font-size:16px;
+}
+.text-17{
+	font-size:17px;
+}
+.text-18{
+	font-size:18px;
+}
+.text-20{
+	font-size:20px;
+}
+
+.b-border{
+	border-bottom: 4px solid #003781;
+}
+.bg-gold{
+background-color: #fda8024a;
+}
+.text-color{
+	color: #CDCBCB;
+}
+.heading-text{
+	color: #6C6C6C;
+}
+.box-shadow {
+    box-shadow: 3px 1px 10px rgb(0 0 0 / 7%);
+}
+
+.dream-text{
+    color: #8D8D8D;
+}
+.opacity-0{
+	opacity: 0.9 !important;
+}
+.bg-yellow{
+	background-color:#FDA802 !important;
+}
+.bg-places{
+	background-color: #FAFAFA;
+}
+.w-85{
+	width: 85%;
+}
+.w-80{
+	width: 80%;
+}
+.read-more-text{
+    color: #1B75BC;
+}
+.blog-border{
+	border-bottom:3px solid #FDA802;
+}
+.strike-color{
+	color:#1167B1;
+}
+.view-all a{
+	background-color: #1167B1;
+	padding: 8px 25px;
+    border-radius: 20px;
+}
+.text-black{
+	color: #252B42 !important;
+}
+.header-bg{
+background: linear-gradient(0deg, rgb(0 0 0 / 28%) 0%, rgb(196 196 196 / 0%) 100%);
+height:95px;
+}
+.dream-nav-bar li{
+    margin-right: 4rem;
+    padding-top: 10px;
+}
+.login-btn .signup-btn{
+    padding: 5px 10px;
+}
+.dream-nav-bar{
+    padding-left: 5rem;
+    margin-top: 35px;
+}
+.login-btn .user-icon i{
+font-size: 30px !important;
+}
+#myDiv .text.active {
+  border-bottom: 2px solid #FDA802;
+}
+.bg-email-address{
+	background-color: #6C6C6C;
+	border-radius: 10px;
+	top:80px;
+}
+.input-email-address::placeholder{
+	color: #8d8d8d;
+	font-size: 14px;
+}
+.form-control:focus{
+	box-shadow: none !important;
+}
+.input-email-address input{
+    height: 42px;
+    width: 60%;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.input-email-address button{
+	border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    padding: 9px 25px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.input-email-address .form-control:focus{
+	box-shadow: none !important;
+	border-color: #fff !important;
+}
+.border-radius-box{
+	border-radius: 20px !important;
+}
+.h-35{
+	height:35px !important;
+}
+.footer-bg{
+	background-color: #1167B1;
+}
+.social-icon a{
+	width: 40px;
+    height: 40px;
+    color: #1167B1;
+    font-size: 30px;
+}
+.map-icon span{
+	font-size:28px;
+}
+.footer-heading:before {
+    content: "";
+    display: block;
+    width: 25%;
+    position: absolute;
+    top: 35px;
+    border-bottom: 1px solid #fff;
+    opacity: 0.9;
+}
+.popular-places img {
+    border-radius: 20px;
+    position: relative;
+}
+.places-btn{
+    top: 40px;
+    right: 30px;
+}
+.places-btn a{
+    padding: 5px 18px;
+}
+.places-btn a:hover{
+    background-color: #1167B1 !important;
+}
+.india-tour{
+    bottom:38px !important;
+}
+.star-rating-view{
+    bottom: 13px;
+    left:0;
+}
+.star-rating-view p{
+    border-bottom: 1px solid #fff;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+}
+.country-place-btn{
+    left:30px !important;
+}
+.places-vies:before {
+    top: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*End Utilities*/

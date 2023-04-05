@@ -1,0 +1,189 @@
+.holy-dream-bg-image {
+    background: url(../images/holy-dream-bg-image.png) no-repeat left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 209px;
+}
+
+.bg-dropdown{
+    background: linear-gradient(0deg, rgb(0 0 0 / 35%) 0%, #212529 100%);
+    height: 120px;
+}
+.holy-dream-dropdown button:nth-of-type(1){
+    border-top-left-radius: 20px !important;
+    border-bottom-left-radius: 20px !important;
+}
+.holy-dream-dropdown button{
+    background: #fff !important;
+    color: #AFACAC !important;
+    border-right: 1px solid #AFACAC;
+    border-radius: 0 !important;
+    height:42px;
+    border-top: 0;
+    border-bottom: 0;
+    border-left: 0;
+}
+.dropdown-main-center{
+    width:90%;
+}
+.landen-dropdown button{
+    background: #fff !important;
+    color: #AFACAC !important;
+    border-right: 1px solid #AFACAC;
+    border-radius: 0 !important;
+    height:42px;
+    border-top: 0;
+    border-bottom: 0;
+    border-left: 0;
+}
+.holy-dream-dropdown .dropdown-toggle::after, 
+.landen-dropdown .dropdown-toggle::after{
+    right: 10px;
+    position: absolute;
+    top: 19px;
+    font-size: 23px;
+}
+
+.dropdown-main{
+     border-top-left-radius: 20px !important;
+    border-bottom-left-radius: 20px !important;
+    border-radius: 20px;
+}
+.btn-dropdown a{
+    padding: 10px 15px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    height:42px;
+}
+.btn-dropdown a:hover{
+    background-color: #000 !important;
+}
+.star-rating {
+  display:flex;
+  flex-direction: row-reverse;
+  font-size:20px;
+}
+
+.star-rating input {
+  display:none;
+}
+
+.star-rating label {
+  color:#ccc;
+  cursor:pointer;
+}
+
+.star-rating :checked ~ label {
+  color:#f90;
+}
+
+.star-rating label:hover,
+.star-rating label:hover ~ label {
+  color:#fc0;
+}
+
+.services-bg{
+    background-color: #1167B1;
+}
+.services-bg .service-box{
+    background: #1167B1;
+    width: 70px;
+    height: 70px;
+    display: inline-block;
+    border-radius: 50%;
+    padding-top: 10px;
+}
+.services-bg .views-text{
+    color:#8D8D8D;
+}
+.services-bg .hotle-heading{
+    color: #6C6C6C;
+}
+.read-more{
+    color: #1167B1;
+}
+.services-bg .read-more a:before {
+   content: "";
+    display: block;
+    width: 17%;
+    background-color: #1167B1;
+    height: 3px;
+    position: absolute;
+    top: 13px;
+    left: 64%;
+}
+.services-bg .tourist-box{
+background: 0 !important;
+    border: 2px solid #EFEFEF;
+}
+.services-bg .flight-box{
+   background: 0 !important;
+    border: 2px solid #EFEFEF;
+    padding-top: 15px; 
+}
+.bg-dream-places{
+width: 65%;
+}
+.dream-places-video{
+    right: 0;
+    top: 30px;
+}
+.dream-places-video iframe{
+    border-radius: 20px;
+}
+
+.card-blogs img{
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+.date-section{
+    background-color: #1167B1;
+    position: absolute;
+    top: -25px;
+    width: 53px;
+    height: 53px;
+    left: 20px;
+}
+.card-blogs .card-body{
+    border: 1px solid #e5e5e5;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+
+@media (max-width: 2000px) {
+.bg-dropdown{
+    width:55%;
+}
+.landen-dropdown button, .holy-dream-dropdown button{
+    padding-right: 130px;
+}
+
+
+}
+
+
+@media (max-width: 1500px) {
+
+.bg-dropdown{
+    width:65%;
+}
+.landen-dropdown button, .holy-dream-dropdown button{
+    padding-right: 130px;
+}
+
+
+}
+
+
+
+@media (max-width: 1300px) {
+.bg-dropdown{
+    width:63%;
+}
+.landen-dropdown button, .holy-dream-dropdown button{
+    padding-right: 110px;
+}
+
+
+}
