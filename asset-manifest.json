@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/fawazjoiya/torepo.git/static/css/main.b97e9688.css",
-    "main.js": "/fawazjoiya/torepo.git/static/js/main.2771532c.js",
+    "main.js": "/fawazjoiya/torepo.git/static/js/main.cfe9ab23.js",
     "static/js/787.28cb0dcd.chunk.js": "/fawazjoiya/torepo.git/static/js/787.28cb0dcd.chunk.js",
     "static/media/blogtop.png": "/fawazjoiya/torepo.git/static/media/blogtop.22a80ea72096e5e4f2a3.png",
     "static/media/landenmain.png": "/fawazjoiya/torepo.git/static/media/landenmain.900fea53f06fc070b653.png",
@@ -9,11 +9,11 @@
     "static/media/beach.jpg": "/fawazjoiya/torepo.git/static/media/beach.6cb150a5fe481ba8d9f5.jpg",
     "index.html": "/fawazjoiya/torepo.git/index.html",
     "main.b97e9688.css.map": "/fawazjoiya/torepo.git/static/css/main.b97e9688.css.map",
-    "main.2771532c.js.map": "/fawazjoiya/torepo.git/static/js/main.2771532c.js.map",
+    "main.cfe9ab23.js.map": "/fawazjoiya/torepo.git/static/js/main.cfe9ab23.js.map",
     "787.28cb0dcd.chunk.js.map": "/fawazjoiya/torepo.git/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b97e9688.css",
-    "static/js/main.2771532c.js"
+    "static/js/main.cfe9ab23.js"
   ]
 }
